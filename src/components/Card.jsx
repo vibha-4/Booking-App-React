@@ -1,6 +1,4 @@
 import React from "react";
-
-
 import { toast } from "react-toastify";
 
 function Card({ id, name, info, image, price }) {

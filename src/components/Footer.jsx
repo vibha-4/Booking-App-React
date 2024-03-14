@@ -1,5 +1,6 @@
 import React from "react";
 import { FaTwitter, FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
+import QRCode from "react-qr-code";
 const Footer = () => {
   return (
     <div className="footer-content">
@@ -18,13 +19,20 @@ const Footer = () => {
           <FaYoutube />
         </a>
       </div>
-      <div className="footer-text-1">
-        <br />
-        Made with ❤ by Tech Tribe
-        <br />
-        Note: This project is made for educational purposes only.
+      <div className="footer-mid-text">
+        <p className="footer-text-l">Created by Vibha</p>
+        <p className="footer-text-l">Made with ❤ by the Tech Tribe</p>
+        <p>Note: This project is made for educational purposes only.</p>
       </div>
-      <div className="footer-mid-text">hllo</div>
+
+      <div className="qr-div">
+        <QRCode
+          value="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          className="qr-code"
+          bgColor="transparent"
+          fgColor="white"
+        />
+      </div>
     </div>
   );
 };

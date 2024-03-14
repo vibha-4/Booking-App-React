@@ -1,27 +1,21 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTwitter,
-  faInstagram,
-  faFacebook,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+import { FaTwitter, FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer-content">
       <div className="footer-icon">
         <h6 className="footer-icon-text"> Get Connected</h6>
-        <a href="https://twitter.com/example">
-          <FontAwesomeIcon icon={faTwitter} />
+        <a target="_blank" href="https://twitter.com/example">
+          <FaTwitter />
         </a>
-        <a href="https://instagram.com/example">
-          <FontAwesomeIcon icon={faInstagram} />
+        <a target="_blank" href="https://instagram.com/example">
+          <FaInstagram />
         </a>
-        <a href="https://facebook.com/example">
-          <FontAwesomeIcon icon={faFacebook} />
+        <a target="_blank" href="https://facebook.com/example">
+          <FaFacebook />
         </a>
-        <a href="https://youtube.com/example">
-          <FontAwesomeIcon icon={faYoutube} />
+        <a target="_blank" href="https://youtube.com/example">
+          <FaYoutube />
         </a>
       </div>
       <div className="footer-text-1">

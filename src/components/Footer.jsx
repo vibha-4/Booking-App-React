@@ -26,11 +26,12 @@ const Footer = () => {
       </div>
       <div className="footer-text-1">
         <br />
-        Made with ❤ by Tech Tribe<br />
+        Made with ❤ by Tech Tribe
+        <br />
         Note: This project is made for educational purposes only.
       </div>
       <div className="footer-mid-text">hllo</div>
     </div>
   );
-}
+};
 export default Footer;
